@@ -1,4 +1,3 @@
-from collections import Counter
 import os
 
 def ConvertLetterToValue(letter):
@@ -26,6 +25,5 @@ total = 0
 
 for str in temp:
     total = total + GetDuplicateCharacterValue(str)
-
 
 print(total)
